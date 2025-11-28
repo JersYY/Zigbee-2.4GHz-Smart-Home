@@ -100,7 +100,6 @@ uint32_t GetChannelFrequency(uint32_t channel) {
   return ZIGBEE_CHANNEL_BASE_FREQ + (channel - 11) * ZIGBEE_CHANNEL_SPACING;
 }
 
-
 struct SensorNodeStats {
   uint32_t nodeId;
   std::string nodeName;
